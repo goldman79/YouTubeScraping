@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3012D7A82C8FC6995AFA2ECF /* Pods_YouTubeScraping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AD22B220FA3B95DB5665FF /* Pods_YouTubeScraping.framework */; };
+		35B411792702B0FF006BB522 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B411782702B0FF006BB522 /* WebKit.framework */; };
 		35B9ACF826C35830004BE7F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9ACF726C35830004BE7F4 /* AppDelegate.swift */; };
 		35B9ACFA26C35830004BE7F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9ACF926C35830004BE7F4 /* SceneDelegate.swift */; };
 		35B9ACFC26C35830004BE7F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9ACFB26C35830004BE7F4 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		02AD22B220FA3B95DB5665FF /* Pods_YouTubeScraping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouTubeScraping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B411782702B0FF006BB522 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		35B9ACF426C35830004BE7F4 /* YouTubeScraping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeScraping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B9ACF726C35830004BE7F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35B9ACF926C35830004BE7F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35B411792702B0FF006BB522 /* WebKit.framework in Frameworks */,
 				3012D7A82C8FC6995AFA2ECF /* Pods_YouTubeScraping.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +80,7 @@
 		A410135693B6A8DAF921BDAB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35B411782702B0FF006BB522 /* WebKit.framework */,
 				02AD22B220FA3B95DB5665FF /* Pods_YouTubeScraping.framework */,
 			);
 			name = Frameworks;
@@ -88,7 +92,6 @@
 				37B9EC9DB3018D03EB8E62E5 /* Pods-YouTubeScraping.debug.xcconfig */,
 				7038A8ED62A0BD27BF031582 /* Pods-YouTubeScraping.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
